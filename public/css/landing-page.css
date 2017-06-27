@@ -10,12 +10,19 @@ html {
     height: 100%;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
+body {
+    
+}
+h1 {
+    font-family: "Lato";
+    font-weight: 700;
+    color: green;
+}
+
+h3 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -34,7 +41,7 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    color: yellow;
     background: url(../img/gems.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -43,7 +50,7 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-    color:#282828 ;
+    color:#282828;
     background-color:rgba(152,152,152, 0.6) 
 }
 
